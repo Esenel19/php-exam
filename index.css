@@ -1,0 +1,133 @@
+* {
+    font-family: Georgia, serif;
+ }
+.navtop {
+    background-color: #ffffff;
+    height: 60px;
+    width: 100%;
+    border: 0;
+    border: 0.0625rem solid #2c2c33;
+}
+
+.navtop div {
+    display: flex;
+    margin: 0 auto;
+    width: 1000px;
+    height: 100%;
+}
+
+.navtop div h1,
+.navtop div a {
+    display: inline-flex;
+    align-items: center;
+}
+
+.navtop div h1 {
+    flex: 1;
+    font-size: 24px;
+    padding: 0;
+    margin: 0;
+    color: #2c2c33;
+    font-weight: 100;
+    justify-content: center;
+}
+
+.navtop div h2 {
+    color: #000000;
+    font-weight: 100;
+    padding: 80px 390px;
+    margin-top: 85px;
+}
+
+.navtop div a {
+    padding: 0 20px;
+    text-decoration: none;
+    color: #181616;
+    font-weight: bold;
+}
+
+.navtop div a i {
+    padding: 2px 8px 0 0;
+}
+
+/* .navtop div a:hover {
+    color: #eaebed;
+} */
+
+body.loggedin {
+    background-color: #ffffff;
+}
+.topick {
+    max-width: 57rem;
+    max-width: 57rem;
+    width: 1000px;
+    margin: 0px auto; 
+}
+h2{
+	margin: 0;
+    padding: 35px 0px;
+    font-size: 24px;
+    border: 1px solid #e0e0e3;
+    color: #8276eb;
+    text-align: center;
+    background-color: #cac9b835;
+    margin-top: 55px;
+}
+.top{
+    background: rgb(255, 255, 255);
+    display: inline-flex;
+    flex-direction: row;
+
+}
+.topick_poster {
+    color: #000000;
+    border: 0.0625rem solid #1d1c1c;
+    margin: 25px 0;
+    padding: 4px;
+    
+}
+
+a.txt {
+    color: #bd1010;
+    width: 647px;
+    text-align-last: center;
+    align-self: center;
+
+}
+/* .pp {
+    height: 30px;
+    width: 85px;
+
+} */
+p.pp_profil {
+    color: #10bd10;
+    width: 90px;
+    text-align-last: center;
+    border-right: ridge;
+    align-self: center;
+
+}
+/* .date {
+    background-color: #d5d3c5;
+
+} */
+p.date_poster {
+    color: #2c91fc;
+    width: 125px;
+    text-align-last: center;
+    border-right: ridge;
+    align-self: center;
+}
+select{
+    color: #1e1f21;
+    margin-block: 18px;
+    padding-right: 55px;
+    padding-block-start: 5px;
+    padding-bottom: 5px;
+}
+select.date {
+    margin-left: 15px;
+}
+img{
+    height: 40px;
+}
